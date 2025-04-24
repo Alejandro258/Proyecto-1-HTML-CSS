@@ -56,15 +56,27 @@ ul.list {
   .parrafo{
     padding:0 3%;
   }
+  .responsive-box{
+    padding: 100px 0;
+    padding-left: 5%;
+  }
 }
 @media(min-width:421px) and (max-width: 620px){
   .parrafo{
     padding:0 3%;
   }
+  .responsive-box{
+    padding: 100px 0;
+    padding-left: 5%;
+  }
 }
 @media(min-width:620px) and (max-width: 920px){
   .parrafo{
     padding:0 0%;
+  }
+  .responsive-box{
+    padding: 100px 0;
+    padding-left: 5%;
   }
 }
 @media(min-width:921px) and (max-width: 1920px){
