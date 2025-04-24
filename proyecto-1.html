@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcala | Ropa Deportiva de Alto Rendimiento</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .jumbotron {
+      background: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    .jumbotron h1 {
+      font-size: 3rem;
+    }
+    .promo-section {
+      padding: 60px 0;
+    }
+    .promo-card {
+      border: none;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .future-section {
+      background: url('https://images.unsplash.com/photo-1550345332-09e3ac04f6c0?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
+      color: white;
+      padding: 60px 0;
+    }
+    .future-section .row {
+      align-items: center;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 40px 0;
+    }
+    footer a {
+      color: #adb5bd;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: white;
+    }
+    .box-future{
+      background-color: #c8d2d5;
+    }
+    ul, ol {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.list {
+      list-style: disc;
+      padding-left: 2em;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Marcala</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#novedades">Novedades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <header class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Potencia tu pasión por el deporte</h1>
+      <p class="lead">Tecnología deportiva de vanguardia para atletas reales</p>
+      <a href="#productos" class="btn btn-primary btn-lg">Explora nuestra colección</a>
+    </div>
+  </header>
+
+  <!-- Productos destacados -->
+  <section id="productos" class="promo-section container text-center">
+    <h2 class="mb-5">Más vendidos con descuentos especiales</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card promo-card">
+          <img src="images/training.jpg" class="card-img-top" alt="Zapatillas running">
+          <div class="card-body">
+            <h5 class="card-title">Running Pro</h5>
+            <p class="card-text">Descuento 30% por lanzamiento</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card promo-card">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Ropa de gimnasio">
+          <div class="card-body">
+            <h5 class="card-title">Gimnasio</h5>
+            <p class="card-text">Comodidad y tecnología textil avanzada</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card promo-card">
+          <img src="images/workout.jpg" class="card-img-top" alt="Balones oficiales">
+          <div class="card-body">
+            <h5 class="card-title">Equipo de pesas</h5>
+            <p class="card-text">Equipo perfecto para ejercicio funcional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Novedades futuras -->
+  <section id="novedades" class="future-section">
+    <div class="container-fluid">
+      <div class="row box-future">
+        <div class="col-md-6">
+          <img src="images/runing.jpg" alt="Atletismo" class="img-fluid rounded shadow" style="width:100%">
+        </div>
+        <div class="col-md-6 text-start">
+          <h2>¡Lo mejor está por venir!</h2>
+          <p class="lead" style="padding-right: 30%;">Estamos trabajando en diseños innovadores que transformarán tu experiencia deportiva. ¡Mantente atento a nuestras futuras colecciones!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start" style="margin-top:-60px">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Sobre Marcala</h5>
+          <p>Innovamos para que vivas el deporte con más energía, confort y estilo.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Síguenos</h5>
+          <div class="footer">
+            <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube fa-2x"></i></a>      
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Legales</h5>
+          <a href="#">Aviso de Privacidad</a><br>
+          <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
