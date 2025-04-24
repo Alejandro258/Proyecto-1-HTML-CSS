@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.jumbotron {
+  background: url('https://www.focus.it/images/2022/04/21/atleta-che-corre-orig.jpg') center/cover no-repeat fixed;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.jumbotron h1 {
+  font-size: 3rem;
+}
+.promo-section {
+  padding: 60px 0;
+}
+.promo-card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.future-section {
+  background: url('https://images.unsplash.com/photo-1550345332-09e3ac04f6c0?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
+  color: white;
+  padding: 60px 0;
+}
+.future-section .row {
+  align-items: center;
+}
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 40px 0;
+}
+footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+.box-future{
+  background-color: #c8d2d5;
+}
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+ul.list {
+  list-style: disc;
+  padding-left: 2em;
+}
+
+@media(min-width:180px) and (max-width: 420px){
+  .parrafo{
+    padding:0 3%;
+  }
+}
+@media(min-width:421px) and (max-width: 620px){
+  .parrafo{
+    padding:0 3%;
+  }
+}
+@media(min-width:620px) and (max-width: 920px){
+  .parrafo{
+    padding:0 0%;
+  }
+}
+@media(min-width:921px) and (max-width: 1920px){
+  .parrafo{
+    padding:0 20%;
+  }
+}

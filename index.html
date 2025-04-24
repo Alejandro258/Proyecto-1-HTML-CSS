@@ -6,68 +6,14 @@
   <title>Marcala | Ropa Deportiva de Alto Rendimiento</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .jumbotron {
-      background: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
-      color: white;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-      height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-    .jumbotron h1 {
-      font-size: 3rem;
-    }
-    .promo-section {
-      padding: 60px 0;
-    }
-    .promo-card {
-      border: none;
-      border-radius: 0.5rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .future-section {
-      background: url('https://images.unsplash.com/photo-1550345332-09e3ac04f6c0?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
-      color: white;
-      padding: 60px 0;
-    }
-    .future-section .row {
-      align-items: center;
-    }
-    footer {
-      background-color: #212529;
-      color: white;
-      padding: 40px 0;
-    }
-    footer a {
-      color: #adb5bd;
-      text-decoration: none;
-    }
-    footer a:hover {
-      color: white;
-    }
-    .box-future{
-      background-color: #c8d2d5;
-    }
-    ul, ol {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul.list {
-      list-style: disc;
-      padding-left: 2em;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
 </head>
 <body>
   <!-- Header -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Marcala</a>
+      <a class="navbar-brand" href="#"><img src="images/logo-bco.png" style="width:15%"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -92,8 +38,14 @@
 
   <!-- Productos destacados -->
   <section id="productos" class="promo-section container text-center">
-    <h2 class="mb-5">Más vendidos con descuentos especiales</h2>
-    <div class="row g-4">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12">
+        <h2 class="mb-5 text-center">Más vendidos con descuentos especiales</h2>
+        <p class="parrafo" style="margin-top:-20px; ">Prepárate para descubrir nuestra próxima generación de indumentaria deportiva, diseñada con tecnología de punta, pensada para los atletas que exigen ligereza, frescura y máximo confort en cada movimiento.</p>
+        <hr style=" height: 2px; background-color: #333; width: 50%; margin: 0 auto; ">
+      </div>
+    </div>
+    <div class="row g-4" style="margin-top:50px">
       <div class="col-md-4">
         <div class="card promo-card">
           <img src="images/training.jpg" class="card-img-top" alt="Zapatillas running">
@@ -143,11 +95,12 @@
   <footer class="text-center text-lg-start" style="margin-top:-60px">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-3">
-          <h5>Sobre Marcala</h5>
+        <div class="col-md-3 mb-3">
+          <img src="images/logo-bco.png" style="width:30%">
+          <h5 style="margin-top:25px">Sobre Nosotros</h5>
           <p>Innovamos para que vivas el deporte con más energía, confort y estilo.</p>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-3 mb-3">
           <h5>Síguenos</h5>
           <div class="footer">
             <a href=""><i class="fab fa-facebook fa-2x"></i></a>
@@ -156,10 +109,25 @@
             <a href=""><i class="fab fa-youtube fa-2x"></i></a>      
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-3 mb-3">
           <h5>Legales</h5>
           <a href="#">Aviso de Privacidad</a><br>
           <a href="#">Términos y Condiciones</a>
+        </div>
+        <div class="col-md-3 mb-3" id="contacto">
+          <h5>Contácto</h5>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombres">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="exampleInputPassword1"placeholder="Estado">
+            </div>
+            <div class="mb-3">
+              <textarea type="" rows="4" class="form-control" id="exampleInputPassword1"placeholder="Mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
         </div>
       </div>
     </div>
